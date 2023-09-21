@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    @apply text-h1_sm leading-h1_sm mb-6;
+}
+
+h2 {
+    @apply text-h2_sm leading-h2_sm mb-4;
+}
+
+h3 {
+    @apply text-h3_sm leading-h3_sm mb-4;
+}
+
+h4 {
+    @apply text-h4_sm leading-h4_sm mb-2;
+}
+
+h5 {
+    @apply text-h5_sm leading-h5_sm mb-1;
+}
+
+@screen md {
+    h1 {
+        @apply text-h1 leading-h1;
+    }
+
+    h2 {
+        @apply text-h2 leading-h2;
+    }
+
+    h3 {
+        @apply text-h3 leading-h3;
+    }
+
+    h4 {
+        @apply text-h4 leading-h4;
+    }
+
+    h5 {
+        @apply text-h5 leading-h5;
+    }
+}
+
+/* Body Text */
+
+p {
+    @apply text-base leading-base;
+}
+
+/* Blog Headings */
+
+.blog-content h1 {
+    @apply mt-16;
+}
+
+.blog-content h2 {
+    @apply mt-8;
+}
+
+.blog-content h3 {
+    @apply mt-6;
+}
+
+.blog-content h4 {
+    @apply mt-4;
+}
+
+.blog-content h5 {
+    @apply mt-4;
+}
+
+/* Blog Content */
+
+.blog-content > p + p,
+.blog-content > ul + p,
+.blog-content > ol + p,
+.blog-content > p + ul,
+.blog-content > p + ol {
+    @apply mt-4;
+}
+
+/* Blog Body */
+
+.blog-content p,
+.blog-content ol,
+.blog-content ul {
+    @apply text-lg leading-h5;
+}
+
+/* Blog Breadcrumbs */
+
+.blog-breadcrumb {
+    @apply inline-block text-center font-light;
+}
+
+.blog-breadcrumb > span {
+    @apply mx-1 inline;
+}
+
+.blog-breadcrumb > li {
+    @apply inline;
+}
+
+.blog-breadcrumb > li a {
+    @apply text-brand_primary;
+}
+
+.blog-breadcrumb > li a:hover {
+    @apply underline;
+}
+
+/* Blog Aside */
+
+.blog-aside-title {
+    @apply uppercase font-extrabold text-xs leading-xs;
+}
+
+/* Blog Links */
+
+.blog-content :not(h1):not(h2):not(h3):not(h4):not(h5) a {
+    @apply underline font-bold text-brand_primary;
+}
+
+
+body {
+    background: #050500;
+    color: #fffbfb;
+}
+a {
+    /* color: #067406; */
+    color: #ace7aa;
+    text-shadow: #092709 1px 1px;
+}
+.header {
+    display: block;
+    text-align: center;
+}
+.title {
+    width: 100%;
+}
+.title h1, .title h4 {
+    color: #ace7aa;
+    text-shadow: #204b20 2px 2px;
+    font-family: serif;
+    font-size: 5rem;
+    font-weight: 300;
+    text-decoration: underline;
+    text-align: left;
+    line-height: 5rem;
+    margin: 2rem auto 1rem 2rem;
+    /* text-shadow: #67b1dc 2px 2px; */
+    transform: rotate(-1.5deg);
+}
+.title h4 {
+    color: #c8e9c7;
+    font-size: 1.5rem;
+    text-shadow: #6a9a6a 1px 1px;
+    text-decoration: none;
+    line-height: 1.5rem;
+    margin: 0 12rem;
+}
+.content-wrapper {
+    margin: 1rem 1rem;
+    padding: 0 15vw;
+    /* background: url(img/marble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.content {
+    /* background: transparent;
+    backdrop-filter: brightness(20%); */
+    /* border: 5px outset rgba(54, 54, 54, 0.25); */
+    padding: 0.5rem;
+    font-family: monospace;
+    font-size: 1.25rem;
+    text-shadow: #012b01 2px 2px;
+    line-height: 2.75rem;
+}
+.content p {
+    margin: 1rem 0 2rem;
+    line-height: 2rem;
+    text-align: left;
+}
+.content li {
+    margin-bottom: 0.5rem;
+}
+.boxed {
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid #c8e9c7;
+    padding: 0 1.5rem;
+}
+.boxed p:last-child {
+    margin-bottom: 1rem;
+}
+.notice {
+    border: 1px solid #efefef;
+    font-weight: bold;
+    padding: 1rem;
+}
+.map img {
+    max-width: 64vw;
+}
+footer {
+    position: absolute;
+    bottom: 1rem;
+    padding: 0 1rem;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+    .title h4 {
+        font-size: 1.4rem;
+        margin-right: 3.5rem;
+        margin-left: 3.5rem;
+    }
+}
+@media screen and (max-width: 769px) {
+    .content-wrapper {
+        padding: 0;
+    }
+    .map img {
+        max-width: 98%;
+    }
+}
+@media screen and (min-width: 770px) {
+    .header {
+        text-align: left;
+        padding-left: 15vw;
+    }
+}
