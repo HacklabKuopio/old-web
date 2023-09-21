@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         nojekyll: true,
         fallback: '404.html'
     },
-    ssr: false,
+    ssr: true,
     target: 'static',
     experimental: {
         payloadExtraction: false
