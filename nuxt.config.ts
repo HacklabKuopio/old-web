@@ -4,7 +4,12 @@ export default defineNuxtConfig({
         '@nuxt/content'
     ],
     css: ['/assets/css/main.css'],
-    ssr: true,
+    generate: {
+        nojekyll: true,
+        fallback: '404.html'
+    },
+    ssr: false,
+    target: 'static',
     experimental: {
         payloadExtraction: false
     },
