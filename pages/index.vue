@@ -56,10 +56,7 @@
 
 
             <h3>Tiedotteet</h3>
-            <!-- <p>Ei uusia tiedotteita.</p> -->
-            <p>
-                Syyskokous torstaina 14.9. klo 19&nbsp;&#x2192; normaalisti tiloilla, kaikki tervetulleita.
-            </p>
+            <p>Ei uusia tiedotteita.</p>
         </div>
     </div>
 
