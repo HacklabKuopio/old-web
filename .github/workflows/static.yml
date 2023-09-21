@@ -19,8 +19,8 @@ jobs:
           cache: 'npm'
 
       - run: |
-        npm install
-        npm run generate
+          npm install
+          npm run generate
 
       - name: Init new repo in $BUILD_FOLDER and commit generated files
         run: |
@@ -33,7 +33,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git commit -m 'deploy'
 
-        - name: Deploy
-          uses: JamesIves/github-pages-deploy-action@v4
-          with:
-            folder: ${{env.BUILD_FOLDER}}
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ${{env.BUILD_FOLDER}}
