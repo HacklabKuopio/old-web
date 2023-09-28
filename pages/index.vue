@@ -46,17 +46,23 @@
                 <p>
                     Tule paikan päälle ja/tai liity <a href="https://discord.gg/z2Nz7ygngE">Discord-serverillemme</a>.
                 </p>
+                <p>
+                    Osaaminen ei ole vaatimus :) Tervetuloa mukaan!
+                </p>
             </div>
+
+
             <p class="map">
                 <img src="/img/kartta.jpg" alt=""/>
-            </p>
-            <p>
-                Osaaminen ei ole vaatimus :) Tervetuloa mukaan!
             </p>
 
 
             <h4>Tiedotteet</h4>
             <p>Ei uusia tiedotteita.</p>
+
+            <br/>
+            <br/>
+            <br/>
 
 
             <footer>
