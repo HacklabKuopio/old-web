@@ -24,22 +24,22 @@
                 Voidaan miettiä yhdessä mitä tehdään, yksin tai porukalla.
                 Jaetaan omaa osaamista ja saadaan apua muilta.
                 Mukaan voi tulla myös vain tutustumaan, juttelemaan tai tekemään ihan kouluhommiakin.
-                Tiloilta löytyy perustyökalusto, tietokoneita, 3D-printtereitä, kolvi, jääkaappi sekä kahvikone.
+                Tiloilta löytyy perustyökalusto, tietokoneita, 3D-printtereitä, kolvi, oskilloskooppi, jääkaappi sekä kahvikone.
             </p>
             <div class="boxed">
                 <p>
                     Kokoonnumme Kulttuuriareena 44:lla: (<b>Kauppakatu 44</b>)<br/>
-                    Soita Lapinlinnankadun puoleista ovikelloa.
+                    Soita Lapinlinnankadun puoleista ovikelloa (sivuovi).
                 </p>
                 <ul>
                     <li>
                         <span>
-                            <b>torstaisin</b> <a href="https://diginatiivit.fi/">Diginatiivien</a> digikahvien yhteydessä <b>klo 18&nbsp;&#x2192;</b>
+                            <b>torstaisin</b> <a href="https://diginatiivit.fi/">Diginatiivien</a> digikahvien yhteydessä <b>klo&nbsp;18&nbsp;&#x2192;</b>
                         </span>
                     </li>
                     <li>
                         <span>
-                            <b>sunnuntaisin</b> projektityöskentelyn parissa <b>klo 14&nbsp;&#x2192;</b>
+                            <b>sunnuntaisin</b> projektityöskentelyn parissa <b>klo&nbsp;14&nbsp;&#x2192;</b>
                         </span>
                     </li>
                 </ul>
@@ -55,8 +55,24 @@
             </p>
 
 
-            <h3>Tiedotteet</h3>
+            <h4>Tiedotteet</h4>
             <p>Ei uusia tiedotteita.</p>
+
+
+            <footer>
+                <div class="float-right contact">
+                    <h4>
+                        Yhteystiedot
+                    </h4>
+                    <span>
+                        <img src="/img/email.png" alt=""/>
+                    </span>
+                    <span>
+                        Kauppakatu 44, Kuopio
+                    </span>
+                </div>
+            </footer>
+
         </div>
     </div>
 
