@@ -206,13 +206,26 @@ a {
     padding: 1rem;
 }
 .map img {
-    max-width: 64vw;
+    width: 70vw;
+}
+.contact {
+    margin-top: 1rem;
+}
+.contact h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.contact span {
+    font-size: 1rem;
+}
+.contact img {
+    max-height: 1rem;
 }
 footer {
-    position: absolute;
     bottom: 1rem;
+    border-top: 2px solid #ace7aa;
+    margin: auto -1rem;
     padding: 0 1rem;
-    font-family: sans-serif;
 }
 
 @media screen and (max-width: 640px) {
@@ -220,6 +233,9 @@ footer {
         font-size: 1.4rem;
         margin-right: 3.5rem;
         margin-left: 3.5rem;
+    }
+    .map img {
+        width: unset;
     }
 }
 @media screen and (max-width: 769px) {
