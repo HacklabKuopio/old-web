@@ -79,9 +79,9 @@
                     </article>
                     <aside class="col-span-full md:col-span-3 blog-aside h-fit">
                         <!-- Mobile Table of Content -->
-                        <div class="!hidden blog-aside-wrapper md:!flex mb-4">
+                        <!-- <div class="!hidden blog-aside-wrapper md:!flex mb-4">
                             <BlogTableOfContents :links="doc.body?.toc?.links" class="blog-post-text" />
-                        </div>
+                        </div> -->
                         <!-- Related articles -->
                         <div v-if="data?.surround?.filter((elem) => elem !== null)?.length > 0" class="blog-aside-wrapper">
                             <BlogRelatedArticles :surround="data?.surround" class="blog-post-text" />
