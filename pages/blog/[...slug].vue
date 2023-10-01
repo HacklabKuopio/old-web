@@ -62,11 +62,11 @@
                 <!-- Content -->
                 <Section id="main" class="!pt-0 relative grid grid-cols-10 gap-8 lg:gap-12">
                     <!-- Table of Contents -->
-                    <aside class="col-span-full md:col-span-3 md:hidden">
+                    <!-- <aside class="col-span-full md:col-span-3 md:hidden">
                         <div class="blog-post-text blog-aside-wrapper mb-2">
                             <BlogTableOfContents :links="doc.body?.toc?.links" />
                         </div>
-                    </aside>
+                    </aside> -->
                     <article class="prose col-span-full md:col-span-7 relative">
                         <!-- Update date -->
                         <span
