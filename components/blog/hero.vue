@@ -15,8 +15,14 @@
         </div>
         <h1 class="font-bold mb-4 md:mb-6 text-h3 leading-h3 md:text-h1 md:leading-h1 text-center md:text-left">Hacklab Kuopio Blog</h1>
         <p class="mb-3 md:w-8/12 md:text-lg md:leading-lg text-center md:text-left">
-            Blogi on kehitteillä.
+
         </p>
         <div class="border-t-2 mt-8 border-typography_primary flex flex-col md:flex-row items-center md:justify-between md:text-right"></div>
     </Section>
 </template>
+
+<style>
+#blog h1, #blog h2 {
+    font-family: monospace;
+}
+</style>
