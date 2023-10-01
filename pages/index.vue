@@ -58,7 +58,9 @@
 
 
             <h4>Tiedotteet</h4>
-            <p>Ei uusia tiedotteita.</p>
+            <!-- <p>Ei uusia tiedotteita.</p> -->
+            <p><a href="/blog/">Blogi</a> on avattu.<br/>
+            Lue [<a href="/blog/001-first-post/">Alkutarina</a>].</p>
 
             <br/>
             <br/>
