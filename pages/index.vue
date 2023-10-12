@@ -59,7 +59,7 @@
 
             <h4>Tiedotteet</h4>
             <!-- <p>Ei uusia tiedotteita.</p> -->
-            <p><a href="/blog/">Blogi</a> on avattu.<br/>
+            <p><a href="/blog/">Blogi</a> on avattu 1.10.2023.<br/>
             Lue [<a href="/blog/001-first-post/">Alkutarina</a>].</p>
 
             <br/>
