@@ -18,7 +18,7 @@ export default defineNuxtConfig({
         ],
         lazy: true,
         langDir: 'locals',
-        strategy: 'prefix',
+        strategy: 'no_prefix',
         defaultLocale: 'fi',
         detectBrowserLanguage: false,
     },
