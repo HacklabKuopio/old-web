@@ -1,8 +1,27 @@
 export default defineNuxtConfig({
     modules: [
+        '@nuxtjs/i18n',
         '@nuxtjs/tailwindcss',
-        '@nuxt/content'
+        '@nuxt/content',        
     ],
+    i18n: {
+        vueI18n: './i18n.config.ts',
+        locales: [
+            {
+                code: 'fi',
+                file: 'fi.json'
+            },
+            {
+                code: 'en',
+                file: 'en.json'
+            }
+        ],
+        lazy: true,
+        langDir: 'locals',
+        strategy: 'prefix',
+        defaultLocale: 'fi',
+        detectBrowserLanguage: false,
+    },
     css: ['/assets/css/main.css'],
     generate: {
         nojekyll: true,
