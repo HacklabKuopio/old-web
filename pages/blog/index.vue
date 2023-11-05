@@ -6,7 +6,7 @@
         <BlogHero />
         <Section id="main" class="!pt-0">
             <ContentQuery
-                path="/blog"
+                path="blog"
                 :only="['headline', 'excerpt', 'date', 'tags', '_path', 'image']"
                 :sort="{
                     date: -1
@@ -22,8 +22,8 @@
                 :currentPage="1"
                 :totalPages="data"
                 :nextPage="data > 1"
-                baseUrl="/blog/"
-                pageUrl="/blog/page/"
+                baseUrl="blog/"
+                pageUrl="blog/page/"
             />
         </Section>
     </main>
