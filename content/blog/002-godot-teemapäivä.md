@@ -18,5 +18,5 @@ socialImage:
 Hacklab järjestää pelinkehitysteemapäivän Godot-pelimoottorin käytöstä lauantaina 11.11.2023.
 Yhteistyössä Savon Diginatiivit ja International Game Developers Association IGDA:n kanssa.
 
-![Godot-teemapäivä 11.11.2023](/img/blog/7cIhAGiBerY8.jpg)
+![Godot-teemapäivä 11.11.2023](/img/blog/juliste-peliviikko2023-export.png)
 
